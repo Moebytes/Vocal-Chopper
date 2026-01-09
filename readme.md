@@ -8,7 +8,7 @@ regions of interest.
 
 It uses demucs to isolate the vocal track and crepe to detect pitch regions. As it 
 utilizes machine learning, it can get computationally intensive. That is a trade off you 
-make to get good quality results.
+make to get good quality results. 
 
 You must have python3 installed, as the plugin is essentially a wrapper around the 
 python script. Alternatively, you can simply take and run the script in python/chopper.py 
