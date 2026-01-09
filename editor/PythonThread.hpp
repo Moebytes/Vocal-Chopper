@@ -32,7 +32,7 @@ public:
     
         String pythonPath;
         #if JUCE_MAC
-            pythonPath = "/usr/local/bin/python3.10";
+            pythonPath = "/usr/local/bin/python3.11";
         #else
             pythonPath = "python3";
         #endif
