@@ -2,7 +2,7 @@ import sys
 import subprocess
 import importlib.metadata
 
-required = {"demucs", "crepe", "librosa", "soundfile", "tensorflow", "onnxruntime"}
+required = {"demucs", "crepe", "librosa", "soundfile", "torch", "torchaudio", "tensorflow", "onnxruntime"}
 installed = {dist.metadata["Name"].lower() for dist in importlib.metadata.distributions()}
 missing = required - installed
 

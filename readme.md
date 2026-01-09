@@ -16,12 +16,12 @@ if you are fine running it from the command line. If you have trouble running it
 can try installing the dependencies:
 
 ```
-pip3 install crepe demucs librosa soundfile tensorflow onnxruntime --compile --force-reinstall
+pip3 install crepe demucs librosa soundfile torch torchaudio tensorflow onnxruntime --compile --force-reinstall
 ```
 
 ### Installation
 
-Download from the [releases](https://github.com/Moebits/Vocal-Chopper/releases) tab and rescan the plugins in your DAW.
+Download from the [releases](https://github.com/Moebytes/Vocal-Chopper/releases) tab and rescan the plugins in your DAW.
 
 ### MacOS
 
