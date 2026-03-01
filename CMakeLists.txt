@@ -33,9 +33,9 @@ juce_add_plugin(${PROJECT_NAME}
     PLUGIN_CODE Chop
     FORMATS VST3 AU Standalone
     PRODUCT_NAME "Vocal Chopper"
+    ICON_BIG "assets/icon.png"
     NEEDS_WEB_BROWSER TRUE
     NEEDS_WEBVIEW2 TRUE
-    ICON_BIG "assets/icon.png"
 )
 
 juce_generate_juce_header(${PROJECT_NAME})
