@@ -8,6 +8,7 @@
         "build": "npm run clean && npm run embed-binary && npm run cmake",
         "embed-binary": "rsbuild build && (node -e \"process.exit(process.platform === 'win32' ? 0 : 1)\" && embed-binary.bat || ./embed-binary.sh)",
         "cmake": "cmake -B build -DCMAKE_BUILD_TYPE=Release -DWEBVIEW_DEV_MODE=0 && cmake --build build --config Release",
+        "icons": "./generate-icons.sh",
         "clean": "del-cli ./dist"
     },
     "repository": {

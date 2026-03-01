@@ -35,6 +35,8 @@ juce_add_plugin(${PROJECT_NAME}
     PRODUCT_NAME "Vocal Chopper"
     NEEDS_WEB_BROWSER TRUE
     NEEDS_WEBVIEW2 TRUE
+    ICON_BIG "${CMAKE_CURRENT_SOURCE_DIR}/assets/icon.icns"
+    ICON_SMALL "${CMAKE_CURRENT_SOURCE_DIR}/assets/icon.ico"
 )
 
 juce_generate_juce_header(${PROJECT_NAME})
